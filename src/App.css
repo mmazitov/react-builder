@@ -1,0 +1,22 @@
+.widget {
+	@apply flex flex-col justify-center items-center gap-[10px] bg-[#f6f8ff] rounded-[6px] w-[100px] h-[83px] cursor-pointer transition-colors duration-300;
+	transition-timing-function: ease-in-out;
+}
+.widget-skeleton {
+	@apply h-auto w-full gap-[12px] bg-[#fff] px-[10.5px] py-[15px];
+}
+.widget:hover,
+.widget.active {
+	@apply bg-[#D9E7FF];
+}
+
+.widget-icon {
+	@apply w-[25px] aspect-[1] text-[#97AACD];
+}
+.widget-icon svg {
+	@apply w-full h-full;
+}
+
+.widget-title {
+	@apply text-[#252A32] text-[12px];
+}
